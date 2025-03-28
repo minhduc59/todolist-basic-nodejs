@@ -4,7 +4,6 @@ import ModalEdit from "./layout/ModalEdit";
 
 const ModalApp = (props) => {
   const [modalShow, setModalShow] = React.useState(false);
-  const {} = props;
   const SwitchandShow = () => {
     setModalShow(true);
     props.Switch();
